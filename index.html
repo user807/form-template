@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
     <style>
       /*
 Primary - #02ddee
@@ -14,7 +14,7 @@ Primary - #7ddae4
 Complementary - #e4877d
      */
       :root {
-	  --primary-color: #02ddee;
+	  --primary-color: #201e1e;
 	  --complementary-color: #ff7d5e ;
       }
       
@@ -28,19 +28,19 @@ Complementary - #e4877d
       
       body {
 	  margin: 0;
-	  font-family: 'Roboto', sans-serif;
-	  background-color: #f2f2f2;
+	  font-family: 'Teko', sans-serif;
+	  background-color: #751f1f;
       }
 
       .form-container {
-	  background-color: #fff;
+	  background-color: #751f1f;
 	  max-width: 450px;
 	  width: 95%;
 	  margin: auto;
 	  padding: 40px;
 
 	  /* 05.html: */
-	  box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	  box-shadow: 0 0 10px 1px rgba(0,0,0,1);
 	  
 	  /*11 01.html:*/
 	  margin-top: 50px;
@@ -63,7 +63,7 @@ Complementary - #e4877d
 
 	  /* 05.html: */
 	  border: none;
-	  border-bottom: 1.5px solid rgb(200,200,200);
+	  border-bottom: 1.5px solid rgb(27, 26, 26);
 	  /* safari: */
 	  border-radius: 0;
 	  transition: 0.2 ease;
@@ -86,7 +86,7 @@ Complementary - #e4877d
 	  border: none;
 	  background-color: var(--primary-color);
 	  /* color: #fdfdfd ;*/
-	  color: #fff ;
+	  color: #751f1f ;
 	  text-shadow: 0 0 2px rgba(0,0,0,0.2);
 	  border-radius: 3px;
 	  padding: 0.6rem 0;
@@ -112,7 +112,7 @@ Complementary - #e4877d
 	  display: block;
 	  font-size: 0.9rem;
 	  letter-spacing:0.75px;
-	  color: rgb(68,68,68);
+	  color: rgb(14, 12, 12);
 	  /* color: #??????; */
 	  transform: translateY(2rem);
 	  transition: 0.2 ease;
@@ -131,11 +131,12 @@ Complementary - #e4877d
   <body>
     <!-- div.form-container>form#form>input#name+input#email+input#submit -->
     <div class="form-container">
-      <h3 class="form-heading">Форма</h3>
+	  <h3 class="form-heading">Форма</h3>
+	  <!-- c665b65647b504c41feee192a851eb9c -->
       <!-- Внимание! actions -->
       <!-- Ссылка actions заканчивается на api token. Он для каждого свой -->
-      <form id="form" action="https://getsimpleform.com/messages?form_api_token=8e8fd8200eaea68bae2bdf16e77daf58" method="post" >
-	<input type="hidden" name="redirect_to" value="https://www.wikipedia.org/">
+      <form id="form" action="https://getsimpleform.com/messages?form_api_token=035c0e2556765932076685bc4eda0d4d" method="post" >
+	<input type="hidden" name="redirect_to" value="https://m.vk.com/minya0">
 	<div class="field">
 	  <label for="name">Имя</label>
           <input id="name" name="name" type="text">
