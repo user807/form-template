@@ -1,3 +1,4 @@
+  
 <!doctype html>
 <html lang="ru">
   <head>
@@ -9,7 +10,6 @@
       /*
 Primary - #02ddee
 Complementary - #ff7d5e
-
 Primary - #7ddae4
 Complementary - #e4877d
      */
@@ -21,7 +21,6 @@ Complementary - #e4877d
       * {
 	  box-sizing: border-box;
       }
-
       html {
 	  font-size: 16px;
       }
@@ -31,14 +30,12 @@ Complementary - #e4877d
 	  font-family: 'Teko', sans-serif;
 	  background-color: #751f1f;
       }
-
       .form-container {
 	  background-color: #751f1f;
 	  max-width: 450px;
 	  width: 95%;
 	  margin: auto;
 	  padding: 40px;
-
 	  /* 05.html: */
 	  box-shadow: 0 0 10px 1px rgba(0,0,0,1);
 	  
@@ -57,10 +54,8 @@ Complementary - #e4877d
 	  padding: 0.4rem 0;
 	  outline: none;
 	  font-size: 1rem;
-
 	  /*02.html:*/
 	  letter-spacing: 0.75px;
-
 	  /* 05.html: */
 	  border: none;
 	  border-bottom: 1.5px solid rgb(27, 26, 26);
@@ -77,7 +72,6 @@ Complementary - #e4877d
 	  margin-top: 0;
 	  font-size: 1.5rem;
 	  font-weigth: 500;
-
 	  /*02.html:*/
 	  letter-spacing: 0.75px;
 	  
@@ -94,10 +88,8 @@ Complementary - #e4877d
 	  margin-left: calc(100% - 150px);
 	  box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
 	  /*02.html starts here*/
-
 	  cursor: pointer;
 	  transition: 0.2s ease;
-
 	  /* 05.html: */
 	  margin-top:1.5rem;
       }
@@ -106,7 +98,6 @@ Complementary - #e4877d
 	  transform: translate(2px, 2px);
 	  box-shadow: none;
       }
-
       /*04.html:*/
       label {
 	  display: block;
@@ -152,7 +143,6 @@ Complementary - #e4877d
   </body>
   <script>
     let inputs = document.querySelectorAll('input');
-
     for (let input of inputs) {
 	if (input.getAttribute('type') !== 'submit') {
 	    console.log(input)
@@ -167,7 +157,6 @@ Complementary - #e4877d
 	    input.addEventListener('focusout', focusoutInputHandler, false)
 	}
     }
-
     function focusinInputHandler() {
 	let label = document.querySelector('label[for="' + this.id + '"]')
 	// 11 02.html:
